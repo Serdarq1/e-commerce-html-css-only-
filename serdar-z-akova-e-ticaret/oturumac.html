@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Lato:wght@100;400;700&family=Montserrat:wght@400;700&family=Roboto:wght@400;700&family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>Oturum Aç</title>
+    <style>
+
+        body    {
+            font-family: Lato;
+            background-color: burlywood;
+            
+        }
+        .container  {
+           justify-content: center;
+           display: flex;
+           height: 105vh;
+           align-items: center;
+        }
+
+        .flex-container {
+            background-color: bisque;
+            padding-top: 75px;
+            padding-bottom: 200px;
+            padding-left: 20px;
+            padding-right: 20px;
+            height: 400px;
+            border-radius: 6px;
+        }
+
+        .text   {
+            text-align: center;
+        }
+
+        .checkbox   {
+            display: inline;
+            margin-right: 2px;
+        }
+
+        .remember-me-text   {
+            display: inline;
+            margin-left: 0
+        }
+
+        .email-text, .password-text{
+            margin-bottom: 5px;
+        }
+
+        p   {
+            font-size: 10px;
+            width: 350px;
+            color: rgb(124, 129, 80)
+        }
+
+        h2  {
+            color: rgb(124, 129, 80)
+        }
+
+        .email-input, .password-input   {
+            margin-bottom: 10px;
+            width: 250px;
+            padding-top: 7px;
+            padding-bottom: 7px;
+            padding-left: 5px;
+            border-radius: 4px;
+            border:none;
+            background-color: rgb(251, 217, 158)
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="flex-container">
+        <div class="text">
+            <h2>Oturum Aç veya Kayıt Ol</h2>
+        </div>
+        <div class="email">
+            <p class="email-text">Email:</p>
+            <input type="email" placeholder="example@gmail.com" class="email-input">
+        </div>
+        <div class="password">
+            <p class="password-text">Şifreniz:</p>
+            <input type="password" placeholder="******" class="password-input">
+        </div>
+        <div class="remember-me">
+            <input type="checkbox" class="checkbox">
+            <p class="remember-me-text">Beni hatırla</p>
+        </div>
+        <div class="new-member">
+            <p class="new-member-text">Yeni misiniz? Hemen <u style="cursor: pointer;">kayıt olun</u> ve sınırsız ayrıcalıklardan faydalanın.</p>
+        </div>
+        <div class="capthca">
+            <p>Bu sayfa robot olmadığınızı kanıtlamak için Google <span style="color: blue; cursor: pointer; text-decoration: underline;">reCAPTCHA</span> tarafından korunuyor. <span style="color: blue; cursor: pointer;">Daha fazlasını öğrenin.</span></p>
+        </div>
+        </div>
+    </div>
+</body>
+</html>
